@@ -1,0 +1,27 @@
+{
+  "name": "newproject",
+  "version": "1.0.0",
+  "description": "some practicing",
+  "main": "app.js",
+  "scripts": {
+    "start:dev": "nodemon app.js",
+    "test": "mocha */**/*.spec.js"
+  },
+  "author": "Elen Muradyan",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "express": "^4.17.3",
+    "express-async-handler": "^1.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-spies": "^1.0.0",
+    "faker": "^4.1.0",
+    "mocha": "^6.2.1",
+    "nodemon": "^2.0.15",
+    "rewire": "^6.0.0",
+    "sinon": "^13.0.1",
+    "sinon-chai": "^3.7.0"
+  }
+}
