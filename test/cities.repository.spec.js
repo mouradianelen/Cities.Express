@@ -1,5 +1,4 @@
 const chai = require("chai");
-const axios = require("axios");
 const citiesRepository = require('../cities/cities.repository');
 const sinon = require("sinon");
 const spies = require('chai-spies');

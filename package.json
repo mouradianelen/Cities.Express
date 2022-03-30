@@ -16,9 +16,9 @@
   },
   "devDependencies": {
     "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
     "chai-spies": "^1.0.0",
     "faker": "^4.1.0",
-    "mocha": "^6.2.1",
     "nodemon": "^2.0.15",
     "rewire": "^6.0.0",
     "sinon": "^13.0.1",

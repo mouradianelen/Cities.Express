@@ -7,7 +7,6 @@ module.exports = {
             const country = (cities).country;
             const city = (cities).places[0]["place name"];
             const abbr = (cities).places[0]["state abbreviation"];
-            console.log(country);
             const res = "" + city + ", " + abbr + ", " + country;
             return res;
         }
