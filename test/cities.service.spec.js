@@ -15,7 +15,7 @@ describe('Should return the string', () => {
     it("Correct case", async () => {
         const stubValue =
         {
-            "post code": 94105,
+            "post code": faker.random.number(),
             "country": faker.address.country(),
             "country abbreviation": faker.lorem.word(),
             "places":
@@ -28,7 +28,7 @@ describe('Should return the string', () => {
                 }]
         };
 
-        const expectedAnswer = await "" + stubValue.places[0]["place name"] + ", " +
+        const expectedAnswer =  "" + stubValue.places[0]["place name"] + ", " +
             stubValue.places[0]["state abbreviation"] + ", " + stubValue.country;
 
         sinon.stub(citiesRepository, 'getCityDataByZipCode').returns(stubValue);
